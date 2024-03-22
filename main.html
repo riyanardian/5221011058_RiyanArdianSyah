@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        nav{
+            background-color: burlywood;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            min-height: 80px; 
+            position: sticky; 
+            top: 0; 
+        }
+        nav p{
+            color: aliceblue;
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        nav ul li{
+            list-style: none;
+            display: inline;
+            margin: 20px;
+        }
+        nav ul li a:hover{
+            background-color: aquamarine;
+            color: black;
+        }
+        #main{
+            display: flex;
+            background-color: azure;
+            align-items: center;
+        }
+        #utama{
+            padding: 100px;
+            background-color: azure;
+            height: 450px;
+            align-items: center;
+        }
+        #utama p{
+            line-height: 0px;
+           margin: 55px 0px 25px;
+        }
+        #utama p:nth-child(1){
+            font-family: calibri;
+            font-weight: bold;
+            color: #6d6d6d;
+            font-size: 22px;
+        }
+         
+        #utama p:nth-child(2){
+            font-family: calibri;
+            font-weight: bold;
+            letter-spacing: 2px;
+            color: #1a1a1a;
+            font-size: 60px;
+        }
+         
+        #utama p:nth-child(3){
+            font-family: myriad pro regular;
+            color: #403e3e;
+            font-size: 30px;
+            line-height: 30px;
+        }
+        #foto{
+            display: flex;
+            padding: 100px;
+            height: 400px;
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+        }
+        #footer{
+            background-color: burlywood;
+            height: auto;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <p>riyanardian</p>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="main">    
+        <div id="utama">
+            <p>Hello</p>
+            <p>Perkenalkan saya </p>
+            <p>Riyan Ardian Syah </p>
+        </div>
+        <div id="foto">
+            <img id="img1" src="riyan1.png" alt="">
+        </div>
+    </div>
+    <div id="footer">
+        <p>riyanardian</p>
+    </div>
+</body>
+</html>
